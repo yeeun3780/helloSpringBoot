@@ -1,0 +1,15 @@
+2020-06-18 15:51:16.316  INFO 8368 --- [main] k.a.h.cse.HelloSpringBootApplication     : Starting HelloSpringBootApplication on DESKTOP-7UQM9KE with PID 8368 (D:\Webframe2\helloSpringBoot\target\classes started by yye in D:\Webframe2\helloSpringBoot)
+2020-06-18 15:51:16.331  INFO 8368 --- [main] k.a.h.cse.HelloSpringBootApplication     : No active profile set, falling back to default profiles: default
+2020-06-18 15:51:21.358  INFO 8368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-06-18 15:51:21.381  INFO 8368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-18 15:51:21.383  INFO 8368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-18 15:51:21.696  INFO 8368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-18 15:51:21.697  INFO 8368 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5094 ms
+2020-06-18 15:51:22.201  INFO 8368 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-18 15:51:22.424  INFO 8368 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-06-18 15:51:22.855  INFO 8368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-06-18 15:51:22.889  INFO 8368 --- [main] k.a.h.cse.HelloSpringBootApplication     : Started HelloSpringBootApplication in 8.094 seconds (JVM running for 9.249)
+2020-06-18 15:51:34.933  INFO 8368 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-18 15:51:34.934  INFO 8368 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-18 15:51:34.951  INFO 8368 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-06-18 15:51:35.019  INFO 8368 --- [http-nio-9090-exec-1] k.a.h.cse.controller.HomeController      : Info: Calling home( )
